@@ -2,6 +2,146 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.52515]                                     2015/02/02
+----------------------------------------------------------
++ Dodano język szwedzki
++ Dodano możliwość nagrywania wideo w formacie GIF
++ Dodano możliwość wykonywania transmisji na żywo
++ Dodano sprawdzanie, czy PotPlayer.dll został zmodyfikowany (podczas uruchamiania odtwarzacza)
++ Dodano do przechwytywania ekranu funkcję DirectDraw
++ Dodano na wyjściu 3D funkcję NVIDIA 3D Vision
++ Dodano obsługę wyjścia 3D dla wbudowanego OpenGL Video Renderer
++ Dodano możliwość włączenia/wyłączenia Closed Caption
++ Dodano możliwość ustawienia rodzaju BDA
++ Dodano możliwość edycji częstotliwości kanału BDA
++ Dodano enkoder OpenH264
+
+- Naprawiono problem z odtwarzaniem plików z chmury Daum
+- Naprawiono problem z DXVA podczas odtwarzania niektórych plików z Intel VGA
+- Naprawiono występowanie problemów z kolorami podczas przechwytu do JPEG/PNG
+- Naprawiono problem z regulacją poziomu głośności Wave w Win Vista lub nowszym
+- Naprawiono błąd występujący po użyciu klawisza Alt, który powodował wywołanie menu systemowego i utratę koncentracji uwagi na odtwarzaczu
+- Ulepszono wydajność dekodera Intel QuickSync
+- Naprawiono problem z odczytem 8-bitowych plików PNG
+- Zmieniono domyślną wartość usuwania przeplotu na Motion Adaptive
+- Ulepszono funkcję przechwytywania ekranu DXGI 1.2
+- Poprawiono integrację w tymczasowej liście odtwarzania zewnętrznych plików DPL wybranych do odtwarzania 
+- Dostosowano pliki językowe do użycia tłumaczenia z języka angielskiego, gdy są nieprzetłumaczone linie w bieżącym pliku językowym
+- Ulepszono odtwarzanie pobieranych plików
+- Ulepszono wbudowany OpenGL Video Renderer 
+- Naprawiono problem z wyświetlaniem menu DVD z wbudowanymi OpenGL/Direct3D9 Video Renderer
+- Naprawiono problem z synchronizacją podczas odtwarzania niektórych plików MP4
+- Ulepszono wyświetlanie miniatur w liście odtwarzania
+
+----------------------------------------------------------
+[1.6.51480]                                     2014/12/16
+----------------------------------------------------------
++ Dodano język francuski
++ Dodano język tajski
++ Dodano język hebrajski
++ Dodano język turecki
++ Dodano wsparcie dla zsynchronizowanych lyric (SYLT) w plikach MP3
++ Dodano możliwość odtwarzania strumieni VOD HLS
++ Dodano funkcję umożliwiającą zamianę tekstu na mowę (TTS)
++ Dodano funkcję powiększania, przesuwania oraz rozciągania obrazu przy użyciu kombinacji klawiszy Ctrl, Alt, Shift + przeciągnie LPM
++ Dodano funkcję ręcznego przesuwania położenia napisów za pomocą myszki po użyciu klawiszy Alt i Ctrl
+
+- Naprawiono błąd występujący podczas dekodowania niektórych plików za pomocą CoreAVC
+- Naprawiono problem powodujący nieprawidłowe działanie funkcji przechwytywania gier
+- Naprawiono problem występujący podczas automatycznego odtwarzania następnego pliku po błędzie odtwarzania
+- Naprawiono problem z odtwarzaniem z niektórych adresów FTP
+- Zmodyfikowano niektóre elementy preferencji
+- Rozdzielono wbudowany renderer WASAPI i wewnętrzny DirectSound Audio Renderer
+- Ulepszono regulację szybkości odtwarzania audio
+- Naprawiono wczytywanie napisów SRT
+
+----------------------------------------------------------
+[1.6.49952]                                     2014/09/25
+----------------------------------------------------------
++ Dodano język serbski
++ Dodano do menu Zakładki możliwość wyboru jakości odtwarzanego materiału z YouTube
++ Dodano do Automatycznego wyboru kryteriów odtwarzania możliwość wyboru mediów w zależności od długości
++ Dodano dekoder HEVC CUDA/DXVA
+
+- Naprawiono błąd powodujący nieprawidłowe wyświetlanie drugich napisów
+- Naprawiono problemy z odtwarzaniem niektórych plików wideo z YouTube
+- Ulepszono funkcję wyboru wielu strumieni
+- Ulepszono efektywność wyświetlania UI dla internetowych transmisji wideo
+
+----------------------------------------------------------
+[1.6.49479]                                     2014/08/13
+----------------------------------------------------------
++ Dodano możliwość określenia zewnętrznych folderów audio
+
+- Naprawiono błąd powodujący nie wyświetlanie napisów podczas renderowania wideo za pomocą Haali/madVR
+- Naprawiono problem, powodujący że funkcja wyszukiwania wyrazów w napisach nie działała w niektórych systemach
+- Naprawiono problem powodujący brak możliwości odtwarzania niektórych nowych plików MP4
+- Zmieniono sposób normalizacji audio do stosowania z/bez internetową transmisją wideo
+- Naprawiono błąd wymuszania wyjścia z czatu występujący w niektórych systemach
+
+----------------------------------------------------------
+[1.6.49343]                                     2014/08/07
+----------------------------------------------------------
+* Do kompilacji została użyta nowa wersja kompilatora
+
++ Dodano język bułgarski
++ Dodano język niemiecki
++ Dodano język węgierski
++ Dodano funkcję wyświetlania drugich napisów
++ Dodano możliwość dołączania napisów do aktualnych napisów (kilka języków)
++ Dodano funkcję przechowywania zakresu pomijania w oddzielnym pliku
++ Dodano możliwość wysłania odtworzonych plików do Kosza
++ Dodano w rozszerzeniach możliwość wyboru dodatkowego zestawu ikon
++ Dodano w Eksploratorze napisów możliwość wyszukiwania wyrazów/znaczeń
++ Dodano możliwość odtwarzania plików MKV Edition
++ Dodano funkcję umożliwiającą wstawianie przeciąganych plików w miejscu ich upuszczenia w obszarze listy odtwarzania
++ Dodano w Eksploratorze napisów możliwość zaznaczenia wielu napisów
++ Dodano możliwość automatycznego montowania i odtwarzania plików ISO w systemie Windows 8 i nowszym
++ Dodano funkcję automatycznego przeładowania napisów po wykryciu zmian
++ Dodano obsługę YouTube
++ Dodano możliwość nagrywania strumieni HLS (HTTP Live Streaming)
+
+- Naprawiono błąd wyświetlania niektórych napisów SSA
+- Usunięto możliwość bezpośredniego przesyłania danych z napisami podczas transmisji
+- Naprawiono problem powodujący błędne strumieniowanie HTTP TS
+- Naprawiono błędne wyświetlanie niektórych napisów HDMV
+- Naprawiono błąd powodujący brak możliwości zalogowania się do konta Daum z niektórych systemów
+- Ulepszono funkcję ponownego wczytywanie napisów
+
+----------------------------------------------------------
+[1.6.48576]                                     2014/06/18
+----------------------------------------------------------
++ Dodano język hiszpański
++ Dodano język ukraiński
++ Dodano funkcję zmiany rozmiaru okna odtwarzania tylko podczas pierwszego uruchomienia
++ Dodano możliwość wykonywania korekcji kolorów Gamma (Pixel Shader)
++ Dodano możliwość oddzielnego traktowania wideo/audio podczas losowego odtwarzania/powtarzania odtwarzania
++ Dodano możliwość przechowywania oddzielnie pozycji/rozmiaru skórki dla trybów wideo/audio
++ Dodano funkcję umożliwiającą zapis ustawień natychmiast po wstrzymaniu odtwarzania
++ Dodano funkcję odczytu danych z wyprzedzeniem w ustawieniach wbudowanych Source/Splitter
+
+- Naprawiono błąd powodujący brak możliwości odtwarzania plików MOD
+- Naprawiono problem z marginesami dla napisów SMI
+- Naprawiono nie działającą funkcję Native Stereoscopic 3D 
+- Naprawiono niektóre skróty klawiszowe, które nie działały w liście odtwarzania
+- Naprawiono powtarzanie odtwarzania, które nie działało w trybie odtwarzania w kolejności losowej
+- Dodano w instalatorze działanie automatycznie określające wybór wbudowanych dekoderów/enkoderów sprzętowych w zależności od systemu
+- Ulepszono funkcję kojarzenia rozszerzeń w systemie Windows 8
+
+----------------------------------------------------------
+[1.6.47995]                                     2014/05/29
+----------------------------------------------------------
++ Dodano język japoński
++ Dodano możliwość ustawienia pokazywania wybranych wbudowanych dekoderów/koderów sprzętowych
++ Dodano wsparcie Native Stereoscopic 3D dla Windows 8 lub nowszego
++ Dodano możliwość wyświetlania elementów Listy odtwarzania jako miniatury
+
+- Naprawiono problem powodujący, że nie można było zalogować się do konta Daum z niektórych PC
+- Naprawiono problem powodujące błędne działanie Pan & Scan w trybie pełnoekranowym
+- Naprawiono problem powodujący, że nie można było odtwarzać niektórych nowych plików MOV
+- Dodano możliwość ustawienia w jaki sposób program powinien połączyć się z serwerem FTP
+
+----------------------------------------------------------
 [1.6.47450]                                     2014/05/08
 ----------------------------------------------------------
 * Dodano wsparcie dla wersji w wielu językach (angielski/chiński/portugalski/polski/rosyjski)
